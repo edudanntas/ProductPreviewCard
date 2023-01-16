@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap');
+
+*{
+    margin: 0;
+}
+
+body{
+    background: hsl(30, 38%, 92%);
+}
+
+.container-boss{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    height: 480px;
+    width: 620px;
+    background: white;
+    border-radius: 10px;
+}
+
+.container-image{
+    width: 50%;
+    
+}
+
+.container-text{
+    width: 50%;
+    padding: 10px;
+}
+
+.container-image img{
+    height: 480px;
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.perfume{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: hsl(228, 12%, 48%);
+    font-size: 12px;
+    letter-spacing: 5px;
+    padding: 20px;
+}
+
+h1{
+    font-family: 'Fraunces', sans-serif;
+    font-weight: 700;
+    color: hsl(212, 21%, 14%);
+    padding-left: 20px;
+    padding-right: 40px;
+}
+
+.description{
+    font-family: 'Montserrat', sans-serif;
+    color: hsl(228, 12%, 48%);
+    font-size: 15px;
+    padding: 20px;
+    line-height: 25px;
+}
+
+.price{
+    display: flex;
+}
+
+.new-price{
+    font-family: 'Fraunces', sans-serif;
+    color: hsl(158, 36%, 37%);
+    font-size: 30px;
+    padding: 20px;
+}
+
+.old-price{
+    font-family: 'Montserrat', sans-serif;
+    color: hsl(228, 12%, 48%);
+    text-decoration: line-through;
+    font-size: small;
+    margin-top: 25px;
+    margin-left: 8px;
+}
+
+.cart-btn{
+    display: flex;
+    padding: 15px 65px 15px 65px;
+    margin-left: 20px;
+    margin-right: 30px;
+    background: hsl(158, 36%, 37%);
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    border-radius: 7px;
+}
+
+.cart-btn:hover{
+    background: hsl(162, 58%, 16%);
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    margin-top: 15px;
+    justify-content: center;
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
